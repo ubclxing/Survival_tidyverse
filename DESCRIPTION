@@ -1,0 +1,36 @@
+Package: MTPS
+Type: Package
+Title: Multi-Task Prediction using Stacking Algorithms
+Version: 1.1.1
+Authors@R: c(
+    person("Li Xing", role = c("aut", "cre"), email = "sfulxing@gmail.com"),
+    person("Xiaowen Cao",role = "aut"),
+    person("Shuai You",role = "aut"),
+    person("Yuying Huang", role = "aut"),
+    person("Peijie Xie", role = "ctb"), 
+    person("Mary Lesperance", role = "aut"),
+    person("Xuekui Zhang",role = "aut")
+    )
+Description: Simultaneous multiple outcomes prediction based on revised stacking algorithms, which enables the integration of information from predictions of individual models. An implementation of methodologies proposed in our paper: Li Xing, Mary L Lesperance, Xuekui Zhang. (2019)  Bioinformatics, "Simultaneous prediction of multiple outcomes using revised stacking algorithms" <doi:10.1093/bioinformatics/btz531>.
+License: GPL (>= 2)
+URL: https://doi.org/10.1093/bioinformatics/btz531
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: caret, aftgee, class, dplyr, e1071, glmnet, MASS, rpart,
+        survival
+Suggests: knitr, rmarkdown, ggplot2, reshape2
+VignetteBuilder: knitr
+NeedsCompilation: no
+RoxygenNote: 7.2.3
+Author: Li Xing [aut, cre],
+  Xiaowen Cao [aut],
+  Shuai You [aut],
+  Yuying Huang [aut],
+  Peijie Xie [ctb],
+  Mary Lesperance [aut],
+  Xuekui Zhang [aut]
+Repository: CRAN
+Date/Publication: 2023-5-20 04:30:03 UTC
+Packaged: 2025-03-17 15:23:32 UTC; caoxiaowen
+Maintainer: Li Xing <sfulxing@gmail.com>
